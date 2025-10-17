@@ -233,7 +233,7 @@ FOREIGN KEY (DepartmentID)REFERENCES Departments
 Insert a customer with CustomerID 301, Name Michael Jordan, Address 123 Maple St, City Chicago, and ZipCode 60616 into the Customers table.
 
 ```sql
-INSERT INTO Customers(CustomerID , Name,Address,City,ZipCode) VALUES (301,'Michael Jordan','123 Maple St', 'Chicago',60616);
+INSERT INTO Customers(CustomerID,Name,Address,City,ZipCode) VALUES (301,'Michael Jordan','123 Maple St', 'Chicago',60616);
 ```
 
 **Output:**
@@ -294,9 +294,9 @@ In the Products table, insert a record where some fields are NULL, another recor
 
 ```sql
 
-INSERT INTO Products (ProductID ,  Name   ,          Category) VALUES (106,'Fitness Tracker','Wearables');
-INSERT INTO Products(ProductID ,  Name   ,          Category,Price,Stock) VALUES (107,'Laptop','Electronic',999.99,50);
-INSERT INTO Products(ProductID ,  Name   ,          Category,Stock) VALUES (108,'Wireless Earbud','Accessorie',100);
+INSERT INTO Products (ProductID,Name,Category) VALUES (106,'Fitness Tracker','Wearables');
+INSERT INTO Products(ProductID,Name,Category,Price,Stock) VALUES (107,'Laptop','Electronic',999.99,50);
+INSERT INTO Products(ProductID,Name,Category,Stock) VALUES (108,'Wireless Earbud','Accessorie',100);
  
 ```
 
