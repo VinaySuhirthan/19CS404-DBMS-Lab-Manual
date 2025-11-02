@@ -38,7 +38,7 @@ END;
 Greater number is: 80
 
 ### Program:
-```
+```sql
 DECLARE
    num1 NUMBER := 25;  -- You can change this value
    num2 NUMBER := 80;  -- You can change this value
@@ -71,7 +71,7 @@ END;
 Sum of first 10 natural numbers is: 55
 
 ### Program:
-```
+```sql
 DECLARE
    N NUMBER := 10;
    i NUMBER := 1;
@@ -103,7 +103,7 @@ n = 7
 Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 
 ### Program:
-```
+```sql
 DECLARE
    N NUMBER := 10;
    first NUMBER := 0;
@@ -142,7 +142,7 @@ n = 1535
 Reversed number is 5351
 
 ### Program:
-```
+```sql
 DECLARE
    num NUMBER := 12345; 
    reversed NUMBER := 0;
@@ -177,7 +177,7 @@ a = 10, b = 9, c = 15
 Largest of three number is 15
 
 ### Program:
-```
+```sql
 DECLARE
    num1 NUMBER := 25;  
    num2 NUMBER := 42;   
@@ -201,4 +201,5 @@ END;
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
 
