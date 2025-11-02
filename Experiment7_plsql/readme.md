@@ -10,6 +10,7 @@ PL/SQL, which stands for Procedural Language extensions to the Structured Query 
 
 **Syntax:**
 ```sql
+
 DECLARE 
    <declarations section> 
 BEGIN 
@@ -201,5 +202,6 @@ END;
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
 
 
